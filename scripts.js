@@ -1,5 +1,13 @@
-// Initialize Swiper
+//hide navbar
+let navBar = document.querySelectorAll(".nav-link");
+let navCollapse = document.querySelector(".navbar-collapse.collapse");
+navBar.forEach(function (a) {
+  a.addEventListener("click", function () {
+    navCollapse.classList.remove("show");
+  });
+});
 
+// Initialize Swiper
 var swiper = new Swiper(".mySwiper", {
   spaceBetween: 30,
   centeredSlides: true,
