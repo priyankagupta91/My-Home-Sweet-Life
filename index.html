@@ -21,7 +21,33 @@
 </head>
 
 <body>
-    <header>
+    <navigation class="navi">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">MySweetLife</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projectoverview">Project overview</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#porjectdetail">Project Detail</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </navigation>
+    <header id="home">
         <!-- Swiper -->
         <div class="swiper mySwiper">
             <div class="swiper-wrapper">
@@ -32,8 +58,6 @@
                 <div class="swiper-slide"><img src="image/slider/slider4.jpg" alt="">
                 </div>
             </div>
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
 
             <div class="swiper-pagination"></div>
         </div>
@@ -42,7 +66,7 @@
 
     <!-- project overview container -->
 
-    <section class=" project-overview">
+    <section class=" project-overview" id="projectoverview">
         <div class="heading">
             <p class="project-text mb-5">PROJECT OVERVIEW</p>
         </div>
@@ -143,290 +167,312 @@
         </div>
     </div>
     <!-- body card section start here -->
-    <div class="container-fluid">
-        <section class="discovery-card">
-            <div class="card-container">
-                <div class="row">
-                    <div class="col-sm-12 col-md-5 mb-3 mb-sm-0">
-                        <div class="card card-con" data-aos="fade-right">
-                            <div class="card-body ">
-                                <img src="image/body/card1.jpg" class="d-block w-100 container-img" alt="">
+    <section id="porjectdetail">
+        <div class="container-fluid">
+            <section class="discovery-card">
+                <div class="card-container">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-5 mb-3 mb-sm-0">
+                            <div class="card card-con" data-aos="fade-right">
+                                <div class="card-body ">
+                                    <img src="image/body/card1.jpg" class="d-block w-100 container-img" alt="">
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-sm-12 col-md-7 text-card" data-aos="fade-left">
-                        <div class="card card-con">
-                            <div class="card-body">
-                                <h5 class="card-title title-card">Discover the Perfect Plot Size:
-                                    <br>
-                                    Ranging from 204 to 600 Sq. Yds.
-                                </h5>
-                                <p class="card-text discovery-text">Plot size shapes the narrative's scope and pace,
-                                    from concise shorts to sprawling epics. Balancing brevity and depth is key to
-                                    crafting engaging stories that resonate with audiences. Understanding plot size
-                                    empowers writers to create immersive experiences that leave a lasting impact.
-                                </p>
+                        <div class="col-sm-12 col-md-7 text-card" data-aos="fade-left">
+                            <div class="card card-con">
+                                <div class="card-body">
+                                    <h5 class="card-title title-card">Discover the Perfect Plot Size:
+                                        <br>
+                                        Ranging from 204 to 600 Sq. Yds.
+                                    </h5>
+                                    <p class="card-text discovery-text">Plot size shapes the narrative's scope and pace,
+                                        from concise shorts to sprawling epics. Balancing brevity and depth is key to
+                                        crafting engaging stories that resonate with audiences. Understanding plot size
+                                        empowers writers to create immersive experiences that leave a lasting impact.
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
 
-        <!-- luxuri card -->
-        <section class="discovery-card">
-            <div class="card-container">
-                <div class="row mb-5">
-                    <div class="col-sm-12 col-md-7 text-card container-card order-md-1 order-2" data-aos="fade-right">
-                        <div class="card card-con">
-                            <div class="card-body">
-                                <h5 class="card-title luxury-card">Experience Luxury Life:
-                                    <br>
-                                    The Grand 42,000 Sq. Ft. Clubhouse
-                                </h5>
-                                <p class="card-text luxury-text">Elevate your senses with unparalleled comfort,
-                                    exquisite cuisine, and personalized service in breathtaking destinations around the
-                                    globe. Whether you seek a serene beach retreat, a lavish city escape, or an
-                                    adventurous journey, let us curate an unforgettable experience tailored to your
-                                    desires. Embark on a journey of indulgence and rejuvenation, where every moment is a
-                                    celebration of luxury and leisure.
-                                </p>
+            <!-- luxuri card -->
+            <section class="discovery-card">
+                <div class="card-container">
+                    <div class="row mb-5">
+                        <div class="col-sm-12 col-md-7 text-card container-card order-md-1 order-2"
+                            data-aos="fade-right">
+                            <div class="card card-con">
+                                <div class="card-body">
+                                    <h5 class="card-title luxury-card">Experience Luxury Life:
+                                        <br>
+                                        The Grand 42,000 Sq. Ft. Clubhouse
+                                    </h5>
+                                    <p class="card-text luxury-text">Elevate your senses with unparalleled comfort,
+                                        exquisite cuisine, and personalized service in breathtaking destinations around
+                                        the
+                                        globe. Whether you seek a serene beach retreat, a lavish city escape, or an
+                                        adventurous journey, let us curate an unforgettable experience tailored to your
+                                        desires. Embark on a journey of indulgence and rejuvenation, where every moment
+                                        is a
+                                        celebration of luxury and leisure.
+                                    </p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-sm-12 col-md-5 mb-3 mb-sm-0 order-md-2 order-1">
-                        <div class="card card-con" data-aos="fade-left">
-                            <div class="card-body">
-                                <img src="image/body/card2.jpg" class="d-block w-100 " alt="">
+                        <div class="col-sm-12 col-md-5 mb-3 mb-sm-0 order-md-2 order-1">
+                            <div class="card card-con" data-aos="fade-left">
+                                <div class="card-body">
+                                    <img src="image/body/card2.jpg" class="d-block w-100 " alt="">
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
 
-        <!--water card -->
-        <section class="discovery-card">
-            <div class="card-container">
-                <div class="row">
-                    <div class="col-sm-12 col-md-5 mb-3 mb-sm-0">
-                        <div class="card card-con" data-aos="fade-right">
-                            <div class="card-body ">
-                                <img src="image/body/card3.jpg" class="d-block w-100 container-img" alt="">
+            <!--water card -->
+            <section class="discovery-card">
+                <div class="card-container">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-5 mb-3 mb-sm-0">
+                            <div class="card card-con" data-aos="fade-right">
+                                <div class="card-body ">
+                                    <img src="image/body/card3.jpg" class="d-block w-100 container-img" alt="">
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-sm-12 col-md-7 text-card" data-aos="fade-left">
-                        <div class="card card-con">
-                            <div class="card-body">
-                                <h5 class="card-title title-card">Water Supply:
-                                    <br>
-                                    Your Trusted Clean and Reliable Water
-                                </h5>
-                                <p class="card-text discovery-text">We assures you of unparalleled purity and
-                                    dependability, ensuring peace of mind for your hydration needs. With a commitment to
-                                    excellence, we deliver pristine water solutions that prioritize your health and
-                                    well-being, every drop imbued with our dedication to quality.
-                                </p>
+                        <div class="col-sm-12 col-md-7 text-card" data-aos="fade-left">
+                            <div class="card card-con">
+                                <div class="card-body">
+                                    <h5 class="card-title title-card">Water Supply:
+                                        <br>
+                                        Your Trusted Clean and Reliable Water
+                                    </h5>
+                                    <p class="card-text discovery-text">We assures you of unparalleled purity and
+                                        dependability, ensuring peace of mind for your hydration needs. With a
+                                        commitment to
+                                        excellence, we deliver pristine water solutions that prioritize your health and
+                                        well-being, every drop imbued with our dedication to quality.
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
 
-        <!-- Central park -->
-        <section class="discovery-card">
-            <div class="card-container">
-                <div class="row mb-5">
-                    <div class="col-sm-12 col-md-7 text-card container-card order-md-1 order-2" data-aos="fade-right">
-                        <div class="card card-con">
-                            <div class="card-body">
-                                <h5 class="card-title luxury-card">Greenery Park:
-                                    <br>
-                                    Embrace Nature's Serenity in the Heart of the City
-                                </h5>
-                                <p class="card-text luxury-text">"Greenery Park" beckons you to immerse
-                                    yourself in nature's tranquility amidst the bustling cityscape, offering a serene
-                                    oasis for relaxation and recreation. Embrace the lush greenery and soothing ambiance
-                                    as you escape the urban hustle and reconnect with the beauty of the natural world.
-                                </p>
+            <!-- Central park -->
+            <section class="discovery-card">
+                <div class="card-container">
+                    <div class="row mb-5">
+                        <div class="col-sm-12 col-md-7 text-card container-card order-md-1 order-2"
+                            data-aos="fade-right">
+                            <div class="card card-con">
+                                <div class="card-body">
+                                    <h5 class="card-title luxury-card">Greenery Park:
+                                        <br>
+                                        Embrace Nature's Serenity in the Heart of the City
+                                    </h5>
+                                    <p class="card-text luxury-text">"Greenery Park" beckons you to immerse
+                                        yourself in nature's tranquility amidst the bustling cityscape, offering a
+                                        serene
+                                        oasis for relaxation and recreation. Embrace the lush greenery and soothing
+                                        ambiance
+                                        as you escape the urban hustle and reconnect with the beauty of the natural
+                                        world.
+                                    </p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-sm-12 col-md-5 mb-3 mb-sm-0 order-md-2 order-1">
-                        <div class="card card-con" data-aos="fade-left">
-                            <div class="card-body ">
-                                <img src="image/body/card4.jpg" class="d-block w-100 " alt="">
+                        <div class="col-sm-12 col-md-5 mb-3 mb-sm-0 order-md-2 order-1">
+                            <div class="card card-con" data-aos="fade-left">
+                                <div class="card-body ">
+                                    <img src="image/body/card4.jpg" class="d-block w-100 " alt="">
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
 
-        <!-- Natural Lake -->
-        <section class="discovery-card">
-            <div class="card-container">
-                <div class="row">
-                    <div class="col-sm-12 col-md-5 mb-3 mb-sm-0">
-                        <div class="card card-con" data-aos="fade-right">
-                            <div class="card-body ">
-                                <img src="image/body/card5.jpg" class="d-block w-100 container-img" alt="">
+            <!-- Natural Lake -->
+            <section class="discovery-card">
+                <div class="card-container">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-5 mb-3 mb-sm-0">
+                            <div class="card card-con" data-aos="fade-right">
+                                <div class="card-body ">
+                                    <img src="image/body/card5.jpg" class="d-block w-100 container-img" alt="">
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-sm-12 col-md-7 text-card" data-aos="fade-left">
-                        <div class="card card-con">
-                            <div class="card-body">
-                                <h5 class="card-title title-card">Adjoining 54 & 15 Acres Natural Lakes
-                                </h5>
-                                <p class="card-text discovery-text">Imagine waking up to breathtaking views of
-                                    shimmering
-                                    lakes right outside your window. We offer the rare opportunity to live in close
-                                    proximity to not just one, but two stunning natural lakes. Whether it’s the
-                                    expansive
-                                    54-acre lake or the intimate 15-acre lake, both provide an idyllic setting where you
-                                    can
-                                    indulge in the tranquility and beauty of the water.
-                                </p>
+                        <div class="col-sm-12 col-md-7 text-card" data-aos="fade-left">
+                            <div class="card card-con">
+                                <div class="card-body">
+                                    <h5 class="card-title title-card">Adjoining 54 & 15 Acres Natural Lakes
+                                    </h5>
+                                    <p class="card-text discovery-text">Imagine waking up to breathtaking views of
+                                        shimmering
+                                        lakes right outside your window. We offer the rare opportunity to live in close
+                                        proximity to not just one, but two stunning natural lakes. Whether it’s the
+                                        expansive
+                                        54-acre lake or the intimate 15-acre lake, both provide an idyllic setting where
+                                        you
+                                        can
+                                        indulge in the tranquility and beauty of the water.
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
 
-        <!-- Nature Haven -->
-        <section class="discovery-card">
-            <div class="card-container">
-                <div class="row mb-5">
-                    <div class="col-sm-12 col-md-7 text-card container-card order-md-1 order-2" data-aos="fade-right">
-                        <div class="card card-con" data-aos="fade-right">
-                            <div class="card-body">
-                                <h5 class="card-title luxury-card"> Retreat to Natural Paradise:
-                                    <br>
-                                    Embrace the Splendor of Our 600-Acre Forest Sanctuary
-                                </h5>
-                                <p class="card-text luxury-text">Escape the hustle and bustle of urban living and step
-                                    into a serene haven where nature reigns supreme. Our expansive 600-acre forest
-                                    reserve encircles our community, offering an unparalleled connection to the great
-                                    outdoors. Lose yourself amidst the verdant landscape, where majestic trees stand
-                                    tall and diverse wildlife thrives. Feel the embrace of tranquility as you listen to
-                                    the whispers of the wind and the symphony of birdsong, while the pure, invigorating
-                                    air revitalizes your soul.
-                                </p>
+            <!-- Nature Haven -->
+            <section class="discovery-card">
+                <div class="card-container">
+                    <div class="row mb-5">
+                        <div class="col-sm-12 col-md-7 text-card container-card order-md-1 order-2"
+                            data-aos="fade-right">
+                            <div class="card card-con" data-aos="fade-right">
+                                <div class="card-body">
+                                    <h5 class="card-title luxury-card"> Retreat to Natural Paradise:
+                                        <br>
+                                        Embrace the Splendor of Our 600-Acre Forest Sanctuary
+                                    </h5>
+                                    <p class="card-text luxury-text">Escape the hustle and bustle of urban living and
+                                        step
+                                        into a serene haven where nature reigns supreme. Our expansive 600-acre forest
+                                        reserve encircles our community, offering an unparalleled connection to the
+                                        great
+                                        outdoors. Lose yourself amidst the verdant landscape, where majestic trees stand
+                                        tall and diverse wildlife thrives. Feel the embrace of tranquility as you listen
+                                        to
+                                        the whispers of the wind and the symphony of birdsong, while the pure,
+                                        invigorating
+                                        air revitalizes your soul.
+                                    </p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-sm-12 col-md-5 mb-3 mb-sm-0 order-md-2 order-1">
-                        <div class="card card-con" data-aos="fade-left">
-                            <div class="card-body ">
-                                <img src="image/body/card6.jpg" class="d-block w-100 " alt="">
+                        <div class="col-sm-12 col-md-5 mb-3 mb-sm-0 order-md-2 order-1">
+                            <div class="card card-con" data-aos="fade-left">
+                                <div class="card-body ">
+                                    <img src="image/body/card6.jpg" class="d-block w-100 " alt="">
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
 
-        <!-- IT Park -->
-        <section class="discovery-card">
-            <div class="card-container">
-                <div class="row">
-                    <div class="col-sm-12 col-md-5 mb-3 mb-sm-0">
-                        <div class="card card-con" data-aos="fade-right">
-                            <div class="card-body ">
-                                <img src="image/body/card7.jpg" class="d-block w-100 container-img" alt="">
+            <!-- IT Park -->
+            <section class="discovery-card">
+                <div class="card-container">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-5 mb-3 mb-sm-0">
+                            <div class="card card-con" data-aos="fade-right">
+                                <div class="card-body ">
+                                    <img src="image/body/card7.jpg" class="d-block w-100 container-img" alt="">
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-sm-12 col-md-7 text-card" data-aos="fade-left">
-                        <div class="card card-con">
-                            <div class="card-body">
-                                <h5 class="card-title title-card">4KM to Kandlakoya IT Park: Embrace Proximity to
-                                    Innovation
-                                    and Growth
-                                </h5>
-                                <p class="card-text discovery-text">Discover the perfect location that brings you closer
-                                    to
-                                    the heart of technological advancement and innovation. Situated just 4 kilometers
-                                    away
-                                    from Kandlakoya IT Park, we offer a strategic advantage, ensuring you are
-                                    well-connected
-                                    to the epicenter of professional opportunities and growth.
-                                </p>
+                        <div class="col-sm-12 col-md-7 text-card" data-aos="fade-left">
+                            <div class="card card-con">
+                                <div class="card-body">
+                                    <h5 class="card-title title-card">4KM to Kandlakoya IT Park: Embrace Proximity to
+                                        Innovation
+                                        and Growth
+                                    </h5>
+                                    <p class="card-text discovery-text">Discover the perfect location that brings you
+                                        closer
+                                        to
+                                        the heart of technological advancement and innovation. Situated just 4
+                                        kilometers
+                                        away
+                                        from Kandlakoya IT Park, we offer a strategic advantage, ensuring you are
+                                        well-connected
+                                        to the epicenter of professional opportunities and growth.
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
 
-        <!-- ORR -->
-        <section class="discovery-card">
-            <div class="card-container">
-                <div class="row mb-5">
-                    <div class="col-sm-12 col-md-7 text-card container-card order-md-1 order-2" data-aos="fade-right">
-                        <div class="card card-con">
-                            <div class="card-body">
-                                <h5 class="card-title luxury-card">300 Meters from ORR:
-                                    <br>
-                                    Embrace Connectivity and Convenience
-                                </h5>
-                                <p class="card-text luxury-text">Experience the perfect blend of connectivity and
-                                    convenience with our community located just 300 meters from the Outer Ring Road
-                                    (ORR).
-                                    Enjoy the ease of commuting, seamless access to key destinations, and a lifestyle
-                                    that
-                                    is truly centered around your needs.
-                                </p>
+            <!-- ORR -->
+            <section class="discovery-card">
+                <div class="card-container">
+                    <div class="row mb-5">
+                        <div class="col-sm-12 col-md-7 text-card container-card order-md-1 order-2"
+                            data-aos="fade-right">
+                            <div class="card card-con">
+                                <div class="card-body">
+                                    <h5 class="card-title luxury-card">300 Meters from ORR:
+                                        <br>
+                                        Embrace Connectivity and Convenience
+                                    </h5>
+                                    <p class="card-text luxury-text">Experience the perfect blend of connectivity and
+                                        convenience with our community located just 300 meters from the Outer Ring Road
+                                        (ORR).
+                                        Enjoy the ease of commuting, seamless access to key destinations, and a
+                                        lifestyle
+                                        that
+                                        is truly centered around your needs.
+                                    </p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-sm-12 col-md-5 mb-3 mb-sm-0 order-md-2 order-1">
-                        <div class="card card-con" data-aos="fade-left">
-                            <div class="card-body ">
-                                <img src="image/body/card8.jpg" class="d-block w-100 " alt="">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--  -->
-        <section class="discovery-card">
-            <div class="card-container">
-                <div class="row">
-                    <div class="col-sm-12 col-md-5 mb-3 mb-sm-0">
-                        <div class="card card-con" data-aos="fade-right">
-                            <div class="card-body">
-                                <img src="image/body/card9.jpg" class="d-block w-100 container-img" alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-md-7 text-card" data-aos="fade-left">
-                        <div class="card card-con">
-                            <div class="card-body">
-                                <h5 class="card-title title-card">Near to Schools & Colleges:
-                                    <br>
-                                    Embrace Convenience in Education
-                                </h5>
-                                <p class="card-text discovery-text">Discover the perfect location that brings education
-                                    to
-                                    your doorstep. Our community is strategically situated near a range of schools and
-                                    colleges, ensuring easy access to quality education and a seamless learning
-                                    experience
-                                    for you and your family.
-                                </p>
+                        <div class="col-sm-12 col-md-5 mb-3 mb-sm-0 order-md-2 order-1">
+                            <div class="card card-con" data-aos="fade-left">
+                                <div class="card-body ">
+                                    <img src="image/body/card8.jpg" class="d-block w-100 " alt="">
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
+            <!--  -->
+            <section class="discovery-card">
+                <div class="card-container">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-5 mb-3 mb-sm-0">
+                            <div class="card card-con" data-aos="fade-right">
+                                <div class="card-body">
+                                    <img src="image/body/card9.jpg" class="d-block w-100 container-img" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-7 text-card" data-aos="fade-left">
+                            <div class="card card-con">
+                                <div class="card-body">
+                                    <h5 class="card-title title-card">Near to Schools & Colleges:
+                                        <br>
+                                        Embrace Convenience in Education
+                                    </h5>
+                                    <p class="card-text discovery-text">Discover the perfect location that brings
+                                        education
+                                        to
+                                        your doorstep. Our community is strategically situated near a range of schools
+                                        and
+                                        colleges, ensuring easy access to quality education and a seamless learning
+                                        experience
+                                        for you and your family.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
-    </div>
+        </div>
+    </section>
 
 
 
@@ -475,13 +521,6 @@
                 </div>
             </div>
         </div>
-
-
-
-
-
-
-
 
         <!-- Swiper JS -->
         <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
